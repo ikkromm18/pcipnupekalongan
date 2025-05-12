@@ -5,19 +5,32 @@ import {
     NavbarCollapse,
     NavbarLink,
     NavbarToggle,
+    createTheme,
+    ThemeProvider,
 } from "flowbite-react";
+
+const myPrimary = createTheme({
+    button: {
+        color: {
+            primary: "bg-[#03CC9D] hover:bg-[#4da590] text-white",
+        },
+        size: {
+            lg: "px-6 py-3 text-lg",
+        },
+    },
+});
 
 export default function MyNavbar() {
     return (
         <>
             <Navbar fluid rounded>
                 <NavbarBrand href="https://flowbite-react.com">
-                    <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                        Ipnu
-                    </span>
+                    <img src="./images/pcipnulogo.png" alt="" />
                 </NavbarBrand>
                 <div className="flex md:order-2">
-                    <Button color="green">Get started</Button>
+                    <ThemeProvider theme={myPrimary}>
+                        <Button color="primary">Login</Button>
+                    </ThemeProvider>
                     <NavbarToggle />
                 </div>
                 <NavbarCollapse>
