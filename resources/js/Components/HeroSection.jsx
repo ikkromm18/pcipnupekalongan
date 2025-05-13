@@ -3,7 +3,7 @@ import { Link } from "@inertiajs/react";
 export default function HeroSection() {
     return (
         <>
-            <section className="px-20 bg-[url('./images/Ornamen.png')]">
+            <section className="px-20 mb-8 bg-[url('./images/Ornamen.png')]">
                 <div className="flex justify-center items-center">
                     <div className="flex flex-col">
                         <div className="flex flex-col font-extrabold text-6xl text-gray-800">
