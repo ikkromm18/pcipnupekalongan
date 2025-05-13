@@ -1,3 +1,4 @@
+import MyFooter from "../Components/MyFooter";
 import MyNavbar from "../Components/MyNavbar";
 
 export default function MainLayout({ children }) {
@@ -7,6 +8,7 @@ export default function MainLayout({ children }) {
                 <MyNavbar />
             </div>
             <main>{children}</main>
+            <MyFooter />
         </>
     );
 }
