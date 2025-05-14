@@ -1,6 +1,7 @@
-import AboutSection from "../Components/AboutSection";
-import ArticleSection from "../Components/ArticleSection";
-import HeroSection from "../Components/HeroSection";
+import AboutSection from "../Components/Beranda/AboutSection";
+import ArticleSection from "../Components/Beranda/ArticleSection";
+import HeroSection from "../Components/Beranda/HeroSection";
+import InstagramSection from "../Components/Beranda/InstagramSection";
 
 export default function Home() {
     return (
@@ -10,6 +11,8 @@ export default function Home() {
             <AboutSection />
 
             <ArticleSection />
+
+            <InstagramSection />
         </>
     );
 }

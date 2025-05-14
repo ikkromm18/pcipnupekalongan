@@ -1,4 +1,5 @@
-import CardArticle from "./CardArticle";
+import { Link } from "@inertiajs/react";
+import CardArticle from "../CardArticle";
 
 export default function ArticleSection() {
     const articles = [
@@ -10,7 +11,7 @@ export default function ArticleSection() {
         },
         { id: 2, title: "Judul Artikel 2", description: "Deskripsi artikel 2" },
         { id: 3, title: "Judul Artikel 3", description: "Deskripsi artikel 3" },
-        { id: 3, title: "Judul Artikel 4", description: "Deskripsi artikel 4" },
+        { id: 4, title: "Judul Artikel 4", description: "Deskripsi artikel 4" },
     ];
     return (
         <>
@@ -24,6 +25,12 @@ export default function ArticleSection() {
                             decsription={article.description}
                         />
                     ))}
+                </div>
+
+                <div className="text-center mt-10">
+                    <Link className="bg-[#03CC9D] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#4da590]">
+                        Berita dan Artikel Lainnya
+                    </Link>
                 </div>
             </section>
         </>
