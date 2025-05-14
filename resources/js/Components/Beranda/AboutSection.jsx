@@ -1,4 +1,4 @@
-import MyCarousel from "./MyCarousel";
+import MyCarousel from "../MyCarousel";
 
 export default function AboutSection() {
     const images = [
