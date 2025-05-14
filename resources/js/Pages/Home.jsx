@@ -1,9 +1,15 @@
+import AboutSection from "../Components/AboutSection";
+import ArticleSection from "../Components/ArticleSection";
+import HeroSection from "../Components/HeroSection";
+
 export default function Home() {
     return (
         <>
-            <h1 className="font-bold text-5xl text-center p-8">
-                Welcome To Inertia
-            </h1>
+            <HeroSection />
+
+            <AboutSection />
+
+            <ArticleSection />
         </>
     );
 }
