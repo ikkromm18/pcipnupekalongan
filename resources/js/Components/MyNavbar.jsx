@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/react";
 import {
     Button,
     Navbar,
@@ -34,10 +35,18 @@ export default function MyNavbar() {
                     <NavbarToggle />
                 </div>
                 <NavbarCollapse>
-                    <NavbarLink href="/">Beranda</NavbarLink>
-                    <NavbarLink href="#">Berita</NavbarLink>
+                    {/* <NavbarLink href="/">Beranda</NavbarLink>
+                    <NavbarLink href={"/news"}>Berita</NavbarLink>
                     <NavbarLink href="#">Profil</NavbarLink>
-                    <NavbarLink href="#">Kontak</NavbarLink>
+                    <NavbarLink href="#">Kontak</NavbarLink> */}
+                    <Link href={"/"} className="hover:text-[#03CC9D]">
+                        Beranda
+                    </Link>
+                    <Link href={`/news`} className="hover:text-[#03CC9D]">
+                        Berita
+                    </Link>
+                    <Link className="hover:text-[#03CC9D]">Profil</Link>
+                    <Link className="hover:text-[#03CC9D]">Kontak</Link>
                 </NavbarCollapse>
             </Navbar>
         </>
