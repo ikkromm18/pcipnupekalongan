@@ -45,7 +45,9 @@ export default function MyNavbar() {
                     <Link href={`/news`} className="hover:text-[#03CC9D]">
                         Berita
                     </Link>
-                    <Link className="hover:text-[#03CC9D]">Profil</Link>
+                    <Link href={`/profile`} className="hover:text-[#03CC9D]">
+                        Profil
+                    </Link>
                     <Link className="hover:text-[#03CC9D]">Kontak</Link>
                 </NavbarCollapse>
             </Navbar>
