@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 export default function ArticleCategory() {
     return (
         <>
-            <div className="flex flex-wrap justify-center gap-2 mb-4">
+            <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Button color="alternative">Semua</Button>
                 <Button color="alternative">Berita</Button>
                 <Button color="alternative">Artikel</Button>
