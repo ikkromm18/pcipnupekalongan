@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const MyCarousel = ({ images }) => {
+const MyCarousel = ({ images, height }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const prevSlide = () => {
@@ -16,7 +16,7 @@ const MyCarousel = ({ images }) => {
             <img
                 src={images[currentIndex]}
                 alt={`Slide ${currentIndex}`}
-                className="w-full h-96 object-cover transition-all duration-500"
+                className={`w-full ${height} object-cover transition-all duration-500`}
             />
 
             {/* Tombol kiri */}

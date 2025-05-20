@@ -6,6 +6,8 @@ export default function AboutSection() {
         "https://picsum.photos/id/1015/600/350",
         "https://picsum.photos/id/1016/600/350",
     ];
+
+    const heightOfImage = "h-96";
     return (
         <>
             <section className="px-20 py-16">
@@ -47,7 +49,7 @@ export default function AboutSection() {
                         </div>
                     </div>
                     <div className="mt-16">
-                        <MyCarousel images={images} />
+                        <MyCarousel images={images} height={heightOfImage} />
                     </div>
                 </div>
             </section>

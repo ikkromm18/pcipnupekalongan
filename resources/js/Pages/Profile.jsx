@@ -1,6 +1,7 @@
 import History from "../Components/Profile/History";
 import ImageSection from "../Components/Profile/ImageSection";
 import Misi from "../Components/Profile/Misi";
+import Program from "../Components/Profile/Program";
 import Visi from "../Components/Profile/Visi";
 
 export default function Profile() {
@@ -20,7 +21,8 @@ export default function Profile() {
             <Visi />
 
             <Misi />
-            <></>
+
+            <Program />
         </>
     );
 }
