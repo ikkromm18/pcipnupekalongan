@@ -1,0 +1,27 @@
+import CardProgram from "../CardProgram";
+import { Link } from "@inertiajs/react";
+
+export default function Program() {
+    return (
+        <>
+            <section className="px-20 py-16">
+                <h1 className="font-bold text-3xl mb-4">
+                    Program Kerja IPNU KOTA SANTRI
+                </h1>
+                <div className="flex flex-col gap-4">
+                    <CardProgram />
+                    <CardProgram />
+
+                    <CardProgram />
+
+                    <CardProgram />
+                </div>
+                <div className="flex justify-center mt-8">
+                    <Link className="bg-[#03CC9D] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#4da590] mx-auto">
+                        Program Kerja Lainnya
+                    </Link>
+                </div>
+            </section>
+        </>
+    );
+}

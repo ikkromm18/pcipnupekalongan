@@ -48,7 +48,9 @@ export default function MyNavbar() {
                     <Link href={`/profile`} className="hover:text-[#03CC9D]">
                         Profil
                     </Link>
-                    <Link className="hover:text-[#03CC9D]">Kontak</Link>
+                    <Link href={`/contact`} className="hover:text-[#03CC9D]">
+                        Kontak
+                    </Link>
                 </NavbarCollapse>
             </Navbar>
         </>
