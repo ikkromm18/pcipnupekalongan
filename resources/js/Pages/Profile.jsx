@@ -13,7 +13,7 @@ export default function Profile() {
 
     return (
         <>
-            <section className="px-20 py-10">
+            <section className="px-0 pb-10 md:pt-10 md:px-20">
                 <ImageSection images={images} />
             </section>
             <History />

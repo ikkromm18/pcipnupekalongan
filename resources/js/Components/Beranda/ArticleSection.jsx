@@ -15,8 +15,10 @@ export default function ArticleSection() {
     ];
     return (
         <>
-            <section className="px-20 py-16">
-                <h1 className="font-bold text-3xl mb-6">BERITA DAN ARTIKEL</h1>
+            <section className="px-8 py-16 md:px-20">
+                <h1 className="mb-6 text-3xl font-bold text-center md:text-left">
+                    BERITA DAN ARTIKEL
+                </h1>
                 <div className="flex flex-wrap gap-8 justify-evenly">
                     {articles.map((article) => (
                         <CardArticle
@@ -27,7 +29,7 @@ export default function ArticleSection() {
                     ))}
                 </div>
 
-                <div className="text-center mt-10">
+                <div className="mt-10 text-center">
                     <Link className="bg-[#03CC9D] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#4da590]">
                         Berita dan Artikel Lainnya
                     </Link>

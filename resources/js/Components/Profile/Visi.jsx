@@ -1,8 +1,8 @@
 export default function Visi() {
     return (
         <>
-            <section className="px-20 py-16 text-gray-800">
-                <h1 className="font-bold text-3xl text-center mb-4">
+            <section className="px-8 py-16 text-gray-800 md:px-20">
+                <h1 className="mb-4 text-3xl font-bold text-center">
                     VISI IPNU
                 </h1>
                 <p className="text-[16px] text-center">

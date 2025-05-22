@@ -22,7 +22,7 @@ const MyCarousel = ({ images, height }) => {
             {/* Tombol kiri */}
             <button
                 onClick={prevSlide}
-                className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-30 text-white p-2 rounded-full hover:bg-opacity-60"
+                className="absolute p-2 text-white transform -translate-y-1/2 bg-black rounded-full top-1/2 left-4 bg-opacity-30 hover:bg-opacity-60"
             >
                 ❮
             </button>
@@ -30,13 +30,13 @@ const MyCarousel = ({ images, height }) => {
             {/* Tombol kanan */}
             <button
                 onClick={nextSlide}
-                className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-30 text-white p-2 rounded-full hover:bg-opacity-60"
+                className="absolute p-2 text-white transform -translate-y-1/2 bg-black rounded-full top-1/2 right-4 bg-opacity-30 hover:bg-opacity-60"
             >
                 ❯
             </button>
 
             {/* Indicator dots */}
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            <div className="absolute flex space-x-2 transform -translate-x-1/2 bottom-4 left-1/2">
                 {images.map((_, index) => (
                     <button
                         key={index}
