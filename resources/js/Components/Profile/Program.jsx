@@ -4,8 +4,8 @@ import { Link } from "@inertiajs/react";
 export default function Program() {
     return (
         <>
-            <section className="px-20 py-16">
-                <h1 className="font-bold text-3xl mb-4">
+            <section className="px-8 py-16 md:px-20">
+                <h1 className="mb-4 text-3xl font-bold">
                     Program Kerja IPNU KOTA SANTRI
                 </h1>
                 <div className="flex flex-col gap-4">

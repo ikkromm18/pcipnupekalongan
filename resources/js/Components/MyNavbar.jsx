@@ -4,7 +4,6 @@ import {
     Navbar,
     NavbarBrand,
     NavbarCollapse,
-    NavbarLink,
     NavbarToggle,
     createTheme,
     ThemeProvider,
@@ -24,7 +23,10 @@ const myPrimary = createTheme({
 export default function MyNavbar() {
     return (
         <>
-            <Navbar fluid rounded>
+            <Navbar
+                rounded
+                className="fixed top-0 left-0 z-50 w-full px-8 bg-white shadow-sm md:px-20"
+            >
                 <NavbarBrand href="https://flowbite-react.com">
                     <img src="./images/pcipnulogo.png" alt="" />
                 </NavbarBrand>
@@ -35,10 +37,6 @@ export default function MyNavbar() {
                     <NavbarToggle />
                 </div>
                 <NavbarCollapse>
-                    {/* <NavbarLink href="/">Beranda</NavbarLink>
-                    <NavbarLink href={"/news"}>Berita</NavbarLink>
-                    <NavbarLink href="#">Profil</NavbarLink>
-                    <NavbarLink href="#">Kontak</NavbarLink> */}
                     <Link href={"/"} className="hover:text-[#03CC9D]">
                         Beranda
                     </Link>

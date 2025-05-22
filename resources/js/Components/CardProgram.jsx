@@ -16,16 +16,16 @@ const myPrimary = createTheme({
 export default function CardProgram() {
     return (
         <>
-            <div className="border border-gray-300 rounded-lg flex gap-4 justify-center  p-6">
+            <div className="flex flex-col items-center justify-center gap-4 p-6 border border-gray-300 rounded-lg md:flex-row">
                 <div className="w-72">
                     <img
                         src="https://picsum.photos/id/1020/600/350"
                         alt=""
-                        className="w-full aspect-square object-cover"
+                        className="object-cover w-full aspect-square"
                     />
                 </div>
                 <div className="flex flex-col text-gray-800">
-                    <h1 className="font-medium text-3xl mb-4">
+                    <h1 className="mb-4 text-3xl font-medium">
                         Latihan Instruktur I
                     </h1>
                     <p className="mb-4 text-[16px]">

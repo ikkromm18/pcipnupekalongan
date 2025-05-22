@@ -12,9 +12,11 @@ export default function InstagramSection() {
     ];
     return (
         <>
-            <section className="px-20 py-16">
-                <h1 className="font-bold text-3xl mb-6">INSTAGRAM POST</h1>
-                <div className="flex flex-wrap justify-evenly">
+            <section className="px-8 py-16 md:px-20">
+                <h1 className="mb-6 text-3xl font-bold text-center md:text-left">
+                    INSTAGRAM POST
+                </h1>
+                <div className="flex flex-wrap gap-4 justify-evenly">
                     {InstagramPosts.map((igpost) => (
                         <CardInstagram
                             key={igpost.id}

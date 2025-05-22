@@ -1,13 +1,13 @@
 export default function History() {
     return (
         <>
-            <section className="px-20 pt-6">
+            <section className="px-8 pt-6 md:px-20">
                 <div className="flex flex-wrap justify-between">
-                    <div className="w-1/2 flex flex-col justify-center text-gray-800">
-                        <h3 className="font-bold text-3xl mb-4">
+                    <div className="flex flex-col justify-center w-full text-center text-gray-800 md:text-left md:w-1/2">
+                        <h3 className="mb-4 text-3xl font-bold">
                             SEJARAH IPNU
                         </h3>
-                        <p className="text-[16px]">
+                        <p className="text-[16px] mb-8 md:mb-0">
                             "Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
