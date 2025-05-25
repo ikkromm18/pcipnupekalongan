@@ -21,6 +21,6 @@ Route::get('/contact', function () {
 });
 
 Route::get('/dashboard', function () {
-    return Inertia('Dashboard');
+    return Inertia('Admin/Dashboard');
 });
 // Route::get('/', [BerandaController::class, 'index'])->name('beranda.index');
