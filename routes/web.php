@@ -20,4 +20,7 @@ Route::get('/contact', function () {
     return Inertia('Contact');
 });
 
+Route::get('/dashboard', function () {
+    return Inertia('Dashboard');
+});
 // Route::get('/', [BerandaController::class, 'index'])->name('beranda.index');

@@ -11,6 +11,7 @@ createInertiaApp({
         let page = pages[`./Pages/${name}.jsx`];
         page.default.layout =
             page.default.layout || ((page) => <MainLayout children={page} />);
+
         return page;
     },
     setup({ el, App, props }) {

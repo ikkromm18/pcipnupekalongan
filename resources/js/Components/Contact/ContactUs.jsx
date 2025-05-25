@@ -1,11 +1,13 @@
 export default function ContactUs() {
     return (
         <>
-            <section className="px-20 pt-24 pb-4">
-                <h1 className="text-3xl font-bold">Hubungi Kami</h1>
+            <section className="px-8 md:px-20 pt-24 pb-4">
+                <h1 className="text-3xl font-bold text-center md:text-left">
+                    Hubungi Kami
+                </h1>
             </section>
 
-            <section className="px-20 py-8 bg-gray-100">
+            <section className="px-8 md:px-20 py-8 bg-gray-100">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-0">
                     <div className="flex flex-col border-l-4 pl-5 border-[#03CC9D]">
                         <h2 className="text-gray-500">Kontak</h2>

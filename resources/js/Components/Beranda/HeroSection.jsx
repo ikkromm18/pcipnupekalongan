@@ -5,7 +5,7 @@ export default function HeroSection() {
         <>
             <section className="px-8 md:px-20 pt-20 mb-8 bg-[url('./images/Ornamen.png')]">
                 <div className="flex flex-col items-center justify-center md:flex-row">
-                    <div className="flex flex-col">
+                    <div className="flex flex-col" data-aos="fade-up">
                         <div className="flex flex-col text-4xl font-extrabold text-center text-gray-800 md:text-left md:text-6xl">
                             <h1 className="mb-0 md:mb-4">
                                 Selamat Datang Rekan's
@@ -25,7 +25,7 @@ export default function HeroSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="">
+                    <div className="" data-aos="fade-up">
                         <img src="./images/Cukup.png" alt="" />
                     </div>
                 </div>

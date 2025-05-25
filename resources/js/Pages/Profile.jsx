@@ -6,9 +6,9 @@ import Visi from "../Components/Profile/Visi";
 
 export default function Profile() {
     const images = [
-        "https://picsum.photos/id/1018/600/350",
-        "https://picsum.photos/id/1015/600/350",
-        "https://picsum.photos/id/1016/600/350",
+        "./images/imgpc1.png",
+        "./images/imgpc1.png",
+        "./images/imgpc1.png",
     ];
 
     return (
