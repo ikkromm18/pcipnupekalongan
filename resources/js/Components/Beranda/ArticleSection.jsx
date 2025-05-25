@@ -16,10 +16,16 @@ export default function ArticleSection() {
     return (
         <>
             <section className="px-8 py-16 md:px-20">
-                <h1 className="mb-6 text-3xl font-bold text-center md:text-left">
+                <h1
+                    className="mb-6 text-3xl font-bold text-center md:text-left"
+                    data-aos="fade-up"
+                >
                     BERITA DAN ARTIKEL
                 </h1>
-                <div className="flex flex-wrap gap-8 justify-evenly">
+                <div
+                    className="flex flex-wrap gap-8 justify-evenly"
+                    data-aos="fade-up"
+                >
                     {articles.map((article) => (
                         <CardArticle
                             key={article.id}
@@ -29,7 +35,7 @@ export default function ArticleSection() {
                     ))}
                 </div>
 
-                <div className="mt-10 text-center">
+                <div className="mt-10 text-center" data-aos="fade-up">
                     <Link className="bg-[#03CC9D] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#4da590]">
                         Berita dan Artikel Lainnya
                     </Link>

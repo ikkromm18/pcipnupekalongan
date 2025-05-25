@@ -11,7 +11,10 @@ export default function News() {
                 </h3>
                 <Search />
                 <ArticleCategory />
-                <div className="flex flex-wrap gap-8 justify-evenly">
+                <div
+                    className="flex flex-wrap gap-8 justify-evenly"
+                    data-aos="fade-up"
+                >
                     <CardArticle />
                     <CardArticle />
                     <CardArticle />
